@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS1</title>
+    <link rel="stylesheet" href="css/hw1.css">
+</head>
+<body>
+    <div id="div1"><br>
+        <form method="GET">
+            <fieldset>
+                <legend>Step 1: 로그인 정보</legend>
+
+                <div id="id">
+                <label>아이디&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="id" size="20"><br>
+                </div>
+
+                <div id="pwd">
+                <label>비밀번호&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="password" name="pwd" size="20"><br>
+                </div>
+
+                <div id="pwdcheck">
+                <label>비밀번호 확인&nbsp;&nbsp;&nbsp;</label>
+                <input type="password" name="pwdcheck" size="20" ><br>
+                </div>
+
+                <div id="grade">
+                <label>회원 등급&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="grade" size="20" placeholder="준회원"><br>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Step 2: 개인 정보</legend>
+                <div id="name">
+                    <label>이름&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="text" name="name" size="20" placeholder="5자미만 공백없이"><br>
+                </div>
+                <div id="email">
+                    <label>메일 주소&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="email" name="email" size="20"  placeholder="abcd@domain.com"><br>
+                </div>
+                <div id="phone">
+                    <label>연락처&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="tel" name="phone"  pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" ><br>
+                
+                </div>
+                
+            </fieldset>
+            <fieldset>
+                    <legend>Step 3: 코딩 숙련도(상, 중, 하)</legend>
+                    <div id="coding">
+                        <input type="range" name="coding" min="0" max="100" value="0" step="10"><br><br>
+                    </div>
+                    
+                
+            </fieldset>
+            <fieldset>
+                <input type="submit" id="submit" class="button">
+            </fieldset><br>
+            
+        </form>
+    </div>
+</body>
+</html>

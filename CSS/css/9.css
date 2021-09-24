@@ -1,0 +1,80 @@
+body{
+    background-color: palegreen;
+    background-color: rgb(109, 109, 109);
+    background-color: rgba(109, 109, 109,0.3);
+    background-color: hsl(294, 59%, 84%);
+    background-color: hsla(294, 59%, 84%, 0.35);
+    background-color: #068526;
+    /*background-color: transparent; 투명처리*/
+}
+
+#div-bg{
+    width: 50%;
+    background-color: white;
+}
+
+.div-test{
+    background-color: yellow;
+    border: 5px dashed black;
+
+    margin: 30px; /*div 영역 밖 두께 - 요소와 요소 사이의 간격*/
+    padding: 20px; /*div 영역 안 두께*/
+    width: 20%;
+    float: left; /*해당 객체를 왼쪽부터 정렬하는 속성*/
+}
+
+/*background-clip : 배경 범위 조절*/
+#div1{
+    background-clip: border-box; /*기본 (테두리까지 포함)*/
+}
+#div2{
+    background-clip: padding-box;/*패딩까지만*/
+}
+#div3{
+    background-clip: content-box;/*내용만*/
+}
+
+/*배경 이미지*/
+#bg-img{
+    width: 70%;
+    height: 800px;
+    border: 1px solid black;
+    background-image: url("../sample/image/bgsample.PNG");
+    background-repeat: repeat;/*가로 세로 반복*/
+    background-repeat: repeat-x;/*가로 반복*/
+    background-repeat: repeat-y;/*세로 반복*/
+    background-repeat: no-repeat;    
+
+    background-size: auto; /*기본사이즈*/
+    background-size: contain; /*기본사이즈*/
+    background-size: cover;
+    
+    background-size: 80% 80%;
+    background-size: 150px 100px;
+
+    background-position: left top;
+    background-position: right top;
+    background-position: center top;
+
+    background-position: left bottom;
+    background-position: right bottom;
+    background-position: center bottom;
+
+    background-position: left center;
+    background-position: right center;
+    background-position: center center;
+
+    background-position: 30% 50%;
+    background-position: 30px 50px;
+
+    background-attachment: fixed;
+    background-attachment: scroll;
+}
+
+#bg-all{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+
+    background: url("../sample/image/iconsample.PNG") no-repeat top right;
+}

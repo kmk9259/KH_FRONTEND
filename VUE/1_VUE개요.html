@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue개요</title>
+     <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+   <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <h1>개요</h1>
+    <h3>vue-js?</h3>
+    <p>가볍고 빠르다<br>
+        Mvvm 패턴에 영감을 받아서 view에 최적화<br>
+        앵귤러의 양방향 데이터 바인딩과 리액트의 단방향 데이터 흐름의 장점을 모두 결합
+
+    </p>
+    <div id="app">
+        {{message}}<!--콧수염괄호, 미스테쉬태그 뷰에서 html을 연결하는 가장 기본적인 삽입 방식,
+                        뷰 반응성에 의해 data속성값이 바뀌면 자동으로 갱신-->
+    </div>    
+
+    <script>
+        Vue.createApp({
+            data(){
+                return{
+                    message: 'Intro to Vue with Vue3'
+                }
+            }
+        }).mount('#app');
+
+        //Vue2
+        /*new Vue({
+            el:"#app",
+            data:{
+                message: 'Intro to Vue with Vue2'
+            }
+        })*/
+    </script>
+    
+</body>
+</html>

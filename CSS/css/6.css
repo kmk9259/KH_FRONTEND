@@ -1,0 +1,57 @@
+#c-name{
+    color: red;
+}
+#c-16{
+    color: #FF8E00;
+}
+#c-rgb{
+    color: rgb(255, 219, 100);
+}
+#c-rgba{
+    color: rgba(44, 228, 59, 0.637);
+}
+#c-hsl{
+    color: hsl(209, 90%, 51%);
+}
+#c-hsla{
+    color: rgba(97, 18, 243, 0.616);
+}
+
+/*텍스트에 줄 표시하기*/
+#td1{text-decoration: none;}
+#td2{text-decoration: underline;}
+#td3{text-decoration: line-through;}
+#td4{text-decoration: overline;}
+
+/*텍스트 대소문자구분*/
+#tt1{text-transform: none;}
+#tt2{text-transform: capitalize;}
+#tt3{text-transform: uppercase;}
+#tt4{text-transform: lowercase;}
+
+/*공통속성으로 사이즈와 두께 지정*/
+.shadow{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/*각 그림자 효과*/
+#ts1{
+    color: orangered;
+    text-shadow: 5px 5px orange;
+}
+#ts2{
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+#ts3{
+    color: white;
+    text-shadow: 10px 10px 20px yellow;
+}
+#ts4{
+    text-shadow: 0px 0px 4px grey,
+    0px -5px 4px yellow,
+    0px -10px 6px orange,
+    0px -15px 11px orangered,
+    0px -20px 18px red;
+}

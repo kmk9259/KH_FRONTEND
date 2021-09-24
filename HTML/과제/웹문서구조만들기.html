@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹문서 구조 만들기(실습)</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+<body>
+    <header>
+        <div id="divlogo">
+            <img id = 'logo' src="../웹문서 구조 만들기 실습/img/logo.jpg" />
+            <img id = 'mainlogo' src="../웹문서 구조 만들기 실습/img/mainlogo.jpg" />
+        </div>
+        <ul class ="navi">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Board</a>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    
+    <div class="content ">
+        <div class="content1">
+            <img id = 'leftimg' src="../웹문서 구조 만들기 실습/img/left_img.jpg" />
+        </div>
+        <div class=wrap>
+            <div class="content2">
+                <table>
+                    <tr>
+                        <td>
+                            <img id = 'main_img1' src="../웹문서 구조 만들기 실습/img/main_img1.jpg" />
+                            <p class="caption1">나무를 심는 사람들</p>
+                        </td>
+                        <td>
+                            <img id = 'main_img2' src="../웹문서 구조 만들기 실습/img/main_img2.jpg" />
+                            <p class="caption2">아이들에게 녹색미래를..</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="content3">
+                <table>
+                    <tr>
+                        <td>
+                            <img id = 'main_img3' src="../웹문서 구조 만들기 실습/img/main_img3.jpg" />
+                            <p class="caption3">설악산을 살리는 길</p>
+                        </td>
+                        <td>
+                            <img id = 'main_img4' src="../웹문서 구조 만들기 실습/img/main_img4.jpg" />
+                            <p class="caption4">사라지는 북금곰들</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="content4">
+            <div class="login">
+                <table id = "login" style="margin-left: 20px;">
+                    <tr>
+                        <td><input type ="text" name = "id" id = "id" placeholder="ID를 입력하세요."></td>
+                        <td rowspan="2">
+                            <input type="button" name="login" id = "loginbtn"value="로그인">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input type ="password" name = "pw" id = "pw" placeholder="PW를 입력하세요."></td>               
+                    
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <a id="join" href="#">회원가입</a>
+                            <a id="search" href="#">ID/PW 찾기</a>
+                        </td>
+        
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <img id = 'right_img' src="../웹문서 구조 만들기 실습/img/right_img.jpg" />
+            </div>
+            <div>
+                <img id = 'me_chat' src="../웹문서 구조 만들기 실습/img/me_chat.jpg" />
+            </div>
+        </div>
+        
+
+    </div>
+    
+    <footer>
+        <p align =center>
+            <img id = 'footer' src="../웹문서 구조 만들기 실습/img/footer.JPG"/>
+        </p>
+    </footer>
+</body>
+</html>

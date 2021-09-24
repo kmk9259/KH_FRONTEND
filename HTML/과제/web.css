@@ -1,0 +1,110 @@
+#divlogo{
+    height: 100px;
+}
+#logo{
+    float: left;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+}
+#mainlogo{
+    float: left;
+    width: 500px ;
+    height: 100px;
+    margin-left: 200px;
+}
+
+header>ul{
+    clear: both;
+    list-style: none;
+}
+header>ul>li{
+    display: inline-block;
+}
+.navi{
+    list-style-type: none;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(39, 129, 39);
+    text-align: center;
+}
+.navi li {
+    float: none;
+    margin-right: 5%;
+    margin-left: 5%;
+    position: relative;
+    line-height: 40px;
+    display: inline-block;
+}
+.navi li a{
+    clear: both;
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-left: 100px;
+}
+.navi li a:hover{
+    color: black;
+}
+
+.content{
+    width: 1500px;
+    height: 800px;
+    display:inline-flex;
+}
+.content1{
+    width: 200px;
+}
+#leftimg{
+    width: 200px;
+    height: 800px;
+}
+.content2{
+    width: 530px;
+    height: 400px;
+}
+#main_img1, #main_img2, #main_img3, #main_img4{
+    width: 240px;
+    height: 250px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 50px;
+}
+.caption1, .caption2, .caption3, .caption4{
+    text-align: center;
+}
+.content3{
+    height: 400px;
+}
+.content4{
+    width: 300px;
+}
+#loginbtn{
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+#id, #pw{
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#join, #search{
+    margin-left: 50px;
+}
+#right_img, #me_chat
+{
+    margin-top: 20px;
+}
+a{
+    text-decoration-line: none;
+}
+
+
+
+
+
